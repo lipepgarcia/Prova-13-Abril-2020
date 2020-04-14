@@ -91,3 +91,13 @@
    91  git pull
    92  git tag
    93  history > LOG_FelipeGarcia
+   94  git push
+   95  git commit -m "Adicionando meu LOG de comandos do bash"
+   96  git add .
+   97  git commit -m "Adicionando meu LOG de comandos do bash"
+   98  git push -u -all
+   99  git push -u --all
+  100  git add *
+  101  git add .
+  102  git status
+  103  history > LOG_Felipe
