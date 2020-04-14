@@ -6,8 +6,10 @@ function sum(num1, num2){
    console.log(total);
 }
 
-function sub(){
+function sub(num1, num2){
     //TODO: Implementar subtração
+    var total = num1 - num2;
+    console.log(total);
 }
 
 function mult(num1, num2){
