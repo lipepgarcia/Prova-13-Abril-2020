@@ -101,3 +101,14 @@
   101  git add .
   102  git status
   103  history > LOG_Felipe
+  104  git add .
+  105  git status
+  106  git commit -m "Adicionando LOG de comandos"
+  107  git push -u --all
+  108  git push
+  109  git pull
+  110  git pull --all
+  111  git add .
+  112  git commit -m "Adicionando LOG de comandos"
+  113  git status
+  114  history > LOG_Felipe
