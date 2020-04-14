@@ -10,8 +10,10 @@ function sub(){
     //TODO: Implementar subtração
 }
 
-function mult(){
+function mult(num1, num2){
     //TODO: Implementar multiplicação
+    var total = num1 * num2;
+    console.log(total);
 }
 
 function div(){
