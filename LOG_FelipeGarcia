@@ -87,26 +87,7 @@
    87  ls
    88  cd C:\Users\Felipe\Desktop\Prova\Prova-13-Abril-2020
    89  cd Desktop\Prova\Prova-13-Abril-2020
-   90  git checkout -b feature/mult
-   91  git checkout developer
-   92  git merge feature/mult
-   93  git checkout feature/mult
-   94  git status
-   95  git add .
-   96  git commit -m "13.04.2020 f-mult Criada a função de multiplicação"
-   97  git checkout developer
-   98  git merge feature/mult
-   99  git push -u --all
-  100  git pull
-  101  git pull
-  102  git checkout master
-  103  git pull
-  104  history > lipepgarcia
-  105  git checkout developer
-  106  git add .
-  107  git commit -m "Adicionando histórico de comandos do bash"
-  108  git push -u --all
-  109  git checkout master
-  110  git push -u --all
-  111  git add .
-  112  history > lipepgarcia
+   90  git tag
+   91  git pull
+   92  git tag
+   93  history > LOG_FelipeGarcia
