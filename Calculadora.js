@@ -18,6 +18,8 @@ function mult(num1, num2){
     console.log(total);
 }
 
-function div(){
+function div(num1, num2){
     //TODO: Implementar divisão
+    var total = num1 / num2;
+    console.log(total);
 }
