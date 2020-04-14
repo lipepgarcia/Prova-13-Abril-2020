@@ -1,0 +1,175 @@
+    1  ~ git config --global user.name "kevinkunde96"
+    2  ~ git config --global user.email "kevinkunde96@gmail.com"
+    3  git --list
+    4  git config --list
+    5  git --version
+    6  pwd
+    7  mkdir -p ~/git/es2
+    8  pwd
+    9  cd
+   10  cd ~/git/es2
+   11  ls
+   12  ls -la
+   13  git init
+   14  ls
+   15  ls -la
+   16  cd .git
+   17  ls
+   18  cd ..
+   19  git status
+   20  touch file.txt
+   21  git status
+   22  git add file.txt 
+   23  git status
+   24  git rm --cached file.txt
+   25  git status
+   26  git add file.txt
+   27  git status
+   28  git help
+   29  git help add
+   30  git commit -m "Cria arquivo vazio de testes"
+   31  git status
+   32  touch file2.txt
+   33  touch file3.txt
+   34  git status
+   35  git clear
+   36  clear
+   37  git status
+   38  git add . 
+   39  git status
+   40  git commit
+   41  git status
+   42  touch .gitignore
+   43  git status
+   44  touch dep.out
+   45  echo "dep.out" > .gitignore
+   46  echo "*.out" >> .gitignore
+   47  cat .gitignore
+   48  git status
+   49  git add .
+   50  git commit -m "Adiciona gitignore"
+   51  git status
+   52  git diff
+   53  echo "file content" > file4.txt 
+   54  git status
+   55  git diff
+   56  git add .
+   57  git diff
+   58  git add .
+   59  git status
+   60  git commit -m "Adiciona arquivo vazio para teste de diff"
+   61  echo "New content" > file4.txt
+   62  git diff
+   63  git log 
+   64  git log --oneline
+   65  ls
+   66  ls -l
+   67  git status
+   68  cat file4.txt
+   69  echo "New linne" >> file4.txt
+   70  git add .
+   71  git status
+   72  git commit -m "Aprimora arquivo file4.txt"
+   73  cat file4.txt
+   74  git commit
+   75  git commit
+   76  git status
+   77  git log --oneline
+   78  git reset HEAD~1
+   79  git reset HEAD~1 --soft
+   80  git log --oneline
+   81  ls
+   82  git status
+   83  cat file4.txt
+   84  git reset HEAD~1 --hard
+   85  git status
+   86  ls
+   87  cat file4.txt
+   88  git add .
+   89  git status
+   90  git commit -m "Adiciona dep.out"
+   91  git status
+   92  ls
+   93  cat dep.out
+   94  cat file.txt
+   95  cat file3.txt
+   96  echo "content" >> file4.txt
+   97  git status
+   98  git add .
+   99  git commit "Adiciona file4.txt novamente"
+  100  git checkout file2.txt
+  101  git status
+  102  git commit -m "Adiciona file4.txt novamente"
+  103  git status
+  104  ls
+  105  cat file4.txt 
+  106  echo "New line"  >> file4.txt
+  107  cat file4.txt
+  108  git status
+  109  git add .
+  110  git commit -m "Nova insercao em file4.txt"
+  111  git status
+  112  cat file4.txt
+  113  git status
+  114  git rm file.txt
+  115  git status
+  116  git commit -m "Remove arquivo file"
+  117  git status
+  118  git tag v1.0.0
+  119  git log
+  120  touch file5.txt
+  121  git add . 
+  122  git commit -m "Adiciona file5.txt"
+  123  touch file6.txt
+  124  git status
+  125  git add .
+  126  git commit -m "Adiciona file6.txt"
+  127  git status
+  128  ls
+  129  git checkout v1.0.0
+  130  git status
+  131  git checkout master
+  132  git show v1.0.0
+  133  ls
+  134  cd .. 
+  135  cd ..
+  136  ls
+  137  cd ~/
+  138  ls -la
+  139  rm -rf .git
+  140  ls -la
+  141  ls -la
+  142  git clone https://github.com/lipepgarcia/Prova-13-Abril-2020.git
+  143  ls
+  144  cd Prova-13-Abril-2020
+  145  ls
+  146  git pull origint feature/sub
+  147  git checkout feature/sub
+  148  git checkout developer
+  149  git checkout feature/sub
+  150  git checkout developer
+  151  git merge feature/sub
+  152  git status
+  153  git status
+  154  git push -u origin --all
+  155  git checkout -b feature/div
+  156  git status
+  157  git checkout -b  feature/div
+  158  git checkout feature/div
+  159  git branch
+  160  git commit -m "13.04.2020 f-div Commit da function div"
+  161  git add .
+  162  git commit -m "13.04.2020 f-div Commit da function div"
+  163  git push -u origin --all
+  164  git checkout developer
+  165  git merge feature/div
+  166  git push -u --all
+  167  git status
+  168  git pull
+  169  git push -u --all
+  170  git pull
+  171  git pull origin
+  172  git pull
+  173  git status
+  174  history
+  175  history > kevinkunde96
