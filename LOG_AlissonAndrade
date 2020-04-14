@@ -1,0 +1,75 @@
+  148  cd C:\Users\aliss\OneDrive\Área de Trabalho\Prova Git
+  149  cd Users\aliss\OneDrive\Área de Trabalho\Prova Git
+  150  cd Users\aliss\OneDrive\Área de Trabalhols
+  151  cd Users\aliss\OneDrive\Área de Trabalho
+  152  git init
+  153  git status
+  154  git add .
+  155  git commit -m "Primeiro Commit"
+  156  git satus
+  157  git status
+  158  git status
+  159  git clone https://github.com/lipepgarcia/Prova-13-Abril-2020.git
+  160  git clone https://github.com/lipepgarcia/Prova-13-Abril-2020.git
+  161  git checkout -b feature/sum
+  162  git status
+  163  git init
+  164  git checkout -b feature/sum
+  165  git status
+  166  git checkout -b master
+  167  git checkout -b Master
+  168  git checkout Master
+  169  git checkout feature/sum
+  170  git status
+  171  git add .
+  172  git checkout Master
+  173  git status
+  174  git checkout -b developer
+  175  git status
+  176  git checkout master
+  177  git checkout feature/sum
+  178  git status
+  179  git commit -m "13.04.2020 f-sum Criadas as variaveis e passados os parametros para a função de somar"
+  180  git checkout master
+  181  git checkout developer
+  182  git merge request feature/sum
+  183  git merge feature/sum
+  184  git push -u origin master  
+  185  git push -u developer
+  186  git push -u --all
+  187  git remote
+  188  git pull
+  189  git branch
+  190  git checkout
+  191  git pull
+  192  git checkout master
+  193  git pull
+  194  git pull
+  195  git pull
+  196  git checkout developer
+  197  git pull
+  198  git checkout master
+  199  git pull
+  200  git checkout feature/sum
+  201  git status
+  202  git push -u feature/sum
+  203  git status
+  204  git add .
+  205  git push -u feature/sum
+  206  git push -u --all
+  207  git tag --help
+  208  git checkout master
+  209  git tag 1.0.0
+  210  git push -u --all
+  211  show tag
+  212  git hist master --all
+  213  git history master --all
+  214  git tag
+  215  git pull
+  216  git tag
+  217  git push -u --all
+  218  git pull --all
+  219  git push -u --all
+  220  git tag
+  221  git push --tags
+  222  history > LOG_AlissonAndrade
